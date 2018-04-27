@@ -82,14 +82,14 @@ public class MemoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view, int position) {
 
-              //  showActionsDialog(position);
+               showActionsDialog(position);
 
             }
 
             @Override
             public void onLongClick(View view, int position) {
 
-                showActionsDialog(position);
+              //  showActionsDialog(position);
             }
         }));
 
