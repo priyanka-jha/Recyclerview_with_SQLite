@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Memo</string>
+    <string name="no_memo">No Memo found!</string>
+    <string name="new_memo">Add Memo</string>
+    <string name="update_memo">Update Memo</string>
+    <string name="hint_memo">Enter your memo!</string>
+</resources>
