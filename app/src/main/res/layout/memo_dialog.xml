@@ -59,6 +59,7 @@
         android:inputType="textCapSentences|textMultiLine"
         android:lines="4"
         android:textColorHint="@color/color_hint_memo"
+        android:textColor="@android:color/black"
         android:textSize="@dimen/input_new_memo"
         android:layout_marginTop="10dp"/>
 

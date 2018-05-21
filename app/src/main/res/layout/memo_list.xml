@@ -8,7 +8,8 @@
     android:paddingBottom="@dimen/dimen_10"
     android:paddingLeft="@dimen/activity_margin"
     android:paddingRight="@dimen/activity_margin"
-    android:paddingTop="@dimen/dimen_10">
+    android:paddingTop="@dimen/dimen_10"
+    android:id="@+id/view_foreground">
 
 
 

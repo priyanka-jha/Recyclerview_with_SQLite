@@ -7,6 +7,7 @@ import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 
@@ -30,11 +31,16 @@ public class MemoAdapter extends RecyclerView.Adapter<MemoAdapter.MyViewHolder>{
         this.memoList = memoList;
     }
 
+    public void removeItem(int adapterPosition) {
+    }
+
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
         public TextView textmemo;
         public TextView textdot;
         public TextView textdate;
+        public RelativeLayout  viewForeground;
+
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -42,6 +48,7 @@ public class MemoAdapter extends RecyclerView.Adapter<MemoAdapter.MyViewHolder>{
             textmemo=itemView.findViewById(R.id.textmemo);
             textdate=itemView.findViewById(R.id.textdate);
             textdot=itemView.findViewById(R.id.textdot);
+            viewForeground=itemView.findViewById(R.id.view_foreground);
         }
     }
 
